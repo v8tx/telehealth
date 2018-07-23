@@ -1,0 +1,210 @@
+
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+}
+body {
+
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+}
+.logo {
+  width: 169px;
+  height: auto;
+}
+h2, h3, h4 {
+color: #44130e; 
+}
+hr {
+  border-bottom: 1px solid #ce8601;
+}
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+    color: #988f81;  
+}
+.navbar.bg-dark {
+	background-color: #fff !important;
+	border-bottom: 1px solid #44130e;
+}
+.navbar-dark .navbar-nav .nav-link:active  {
+	
+}
+.navbar-nav li a {
+    color: #44130e;
+    font-weight: bold;    
+    text-transform: uppercase;  
+}
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link:visited {
+    color: #44130e;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cb7e0e;
+    font-weight: bold;
+}
+.navbar-dark .navbar-toggler {
+    color: #44130e;
+    background: #44130e;
+    border-color: #44130e;
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("../img/img-header.png");
+  text-align: center;
+  color: white;
+}
+header .header-content {
+  position: relative;
+  text-align: left;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-shadow: 1px 2px 5px #442F3C;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: #f1f1f1;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 5px #442F3C;
+}
+#connect {
+  background-color: #342f29;
+  color: #7b7368;
+  height: auto;
+  display: block;
+  padding: 25px 0;
+}
+#connect a {
+  color: #cb7e0e;  
+}
+.content-wrapper {
+  background: #ececec;
+  display: block;
+  padding: 100px 0 50px 0;
+  min-height: 400px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #44130e;
+    border-color: #44130e;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8A0707;
+    border-color: #8A0707;
+}
+.accounts {
+	padding: 40px 0;
+}
+.accounts h1 {
+	color: #133d8d;
+	font-size: 28px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+footer {
+    background: #2b2822;
+    color: #988f81;
+    padding: 20px 0;
+    border-top: 1px solid #575149;
+}
+footer p {
+	font-size: 10px;
+	line-height: 180%;
+}
+footer a {
+    color: #988f81;
+    font-weight: bold;
+}
+footer a:hover {
+    color: #cb7e0e;
+    font-weight: bold;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-body {
+    padding: 15px;
+}
+@media (min-width: 768px) {
+  header .header-content {
+    position: relative;
+    text-align: left;
+    padding: 100px 0;
+    width: 80%;
+  }
+  header .header-content .header-content-inner h1 {
+    font-weight: 700;
+    text-shadow: 1px 2px 5px #442F3C;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+  header .header-content .header-content-inner hr {
+    margin: 30px auto;
+  }
+  header .header-content .header-content-inner p {
+    font-weight: 300;
+    color: #f1f1f1;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px 5px #442F3C;
+  }
+}
+
+@media (min-width: 992px) {
+  header .header-content {
+    position: relative;
+    text-align: left;
+    padding: 100px 0;
+    width: 50%;
+  }
+  body {
+    padding-top: 56px;
+  }
+}
